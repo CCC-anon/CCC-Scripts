@@ -13,4 +13,4 @@ Automatically parses all jpg/png files in a directory and resizes if their width
 ### **remove_hair_and_eye_colors.py**
 Parses a folder containing multiple .txt files with comma separated tags inside. Removes most instances of `<color> hair` or `<color> eyes`. If any colors slipped my set-up, feel free to change the list and include those colors in the hair or eye section.
 ### **combine_to_wildcard.py**
-Parses the .txt files inside of a folder and combines them into a single file called `wildcards.txt`. The file will be made up of the contents of all of the other files merged int oa single file, with each caption on a single line, ready to be used as a wildcard for prompting.
+Parses the .txt files inside of a folder and combines them into a single file called `wildcards.txt`. The file will be made up of the contents of all of the other files merged into a single file, with each caption on a single line, ready to be used as a wildcard for prompting.
