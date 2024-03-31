@@ -18,13 +18,13 @@ Parses the .txt files inside of a folder and combines them into a single file ca
 Simple python tkinter interface that can translate from 'Grabber' tags to 'SD' tags ('blue_dress green_boots' becomes 'blue dress, green boots'). It can copy the output to clipboard.
 Requires: 
 * tkinter to be installed (https://tkdocs.com/tutorial/install.html - usually installed by default in python 3.1+) 
-* pyperclip (pip install pyperclip). 
+* pyperclip (`pip install pyperclip`). 
 On Linux, pyperclip requires one of the following clipboard tools to be installed for the clipboard function to work:
-   * xclip (sudo apt-get install xclip)
-   * xsel (sudo apt-get install xsel)
+   * xclip (`sudo apt-get install xclip`)
+   * xsel (`sudo apt-get install xsel`)
    * gtk
    * qt
 * Copy the tagsUI.py file somewhere on your computer
 * Open a terminal/poweshell and go to the directory where you copied the file
-* python tagsUI.py     
+* `python tagsUI.py`  
 ![tagsUI](https://github.com/CCC-anon/CCC-Scripts/assets/163057682/18e2ea79-3336-411a-a78b-d4c55dad5847)
