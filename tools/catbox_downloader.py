@@ -14,7 +14,7 @@ def find_next_folder():
 
 def extract_and_download(file_name, base_directory):
     # Modified regex to match specific file types
-    link_pattern = re.compile(r'https://files\.catbox\.moe/[^ \n]*(?:\.jpg|\.jpeg|\.png|\.webm)')
+    link_pattern = re.compile(r'https://(?:files|litter)\.catbox\.moe/[^ \n]*(?:\.jpg|\.jpeg|\.png|\.webm)')
     
     # Determine the save directory based on existing folders
     save_directory = find_next_folder()
