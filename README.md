@@ -5,7 +5,7 @@
 * They have been tested on Linux-only.
 * If the Python scripts import modules at the beginning of the script, you might have to install those modules before being able to run the script
     * E.g.: If the .py file content starts with `from PIL import image` it might require you to first execute `pip install pillow` before running the script if it is not installed already.
-* Feel free to fork, copy, use the scripts on your own projects as long as you do not ask me to fit your project's needs. (MIT License, no warranty).
+* Feel free to fork, copy, use the scripts on your own projects as long as you do not ask me to fit your project's needs. (no warranty).
 * Some of the scripts work on the live files instead of creating a copy, therefore **ALWAYS** use them on a copy of your dataset instead of the real deal.
 
 ### **image_convert_and_resize.py**
