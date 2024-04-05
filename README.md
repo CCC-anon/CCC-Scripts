@@ -28,10 +28,8 @@ On Linux, pyperclip requires one of the following clipboard tools to be installe
 * Open a terminal/poweshell and go to the directory where you copied the file
 * `python tagsUI.py`  
 ![tagsUI](https://github.com/CCC-anon/CCC-Scripts/assets/163057682/18e2ea79-3336-411a-a78b-d4c55dad5847)
-### **catbox_downloader.py**
-* Place the python file in a directory
-* Create a `content.txt` file right next to it
-* CTRL+A on the thread, CTRL+C to copy, CTRL+V to paste it in content.txt text file
-* Execute the script with `python catbox_downloader.py`
-* It automatically creates named folders and starts downloading images to them
-* Doesn't use catbox API because I'm lazy. Maybe with a future update.
+### **Catbox Scripts**
+Scripts that can 
+* Automatically download files from catbox given a URL with catbox images in it or a list of catbox URLs as a text file
+* Automatically upload files to catbox given a folder and then returning the list of URLs with an optional album creation.
+Instructions found here: https://github.com/CCC-anon/CCC-Scripts/tree/main/catbox
