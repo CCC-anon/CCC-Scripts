@@ -4,17 +4,19 @@ import os
 import argparse
 
 def find_next_folder(base_directory, name_source):
-    # Determine if name_source is a URL or a file name
-    if '/' in name_source:  # Likely a URL
-        folder_base_name = name_source.split('/')[-1]
-        # Remove any characters after a query (?) or hash (#) in URLs
-        folder_base_name = re.split('\?|#', folder_base_name)[0]
-    else:  # Likely a file name
-        folder_base_name = os.path.splitext(name_source)[0]
+    if '/' in name_source or '\\' in name_source:  # Handle file paths or URLs
+        # Extract just the file name if it's a path
+        name_source = os.path.basename(name_source)
     
+    if '.' in name_source:  # Assuming it's a file name with an extension
+        folder_base_name = os.path.splitext(name_source)[0]
+    else:  # Use the name_source directly if it doesn't seem to be a file
+        folder_base_name = name_source
+
     # Ensure the folder name is valid by removing characters not allowed in file names
     folder_base_name = re.sub(r'[<>:"/\\|?*]', '', folder_base_name)
-    
+
+    # Attempt to create the folder, or find a unique name if it exists
     full_folder_path = os.path.join(base_directory, folder_base_name)
     if not os.path.exists(full_folder_path):
         os.makedirs(full_folder_path)
@@ -48,7 +50,6 @@ def download_images(links, save_directory):
 def extract_and_download(url=None, base_directory=None, specified_directory=None, url_list_file=None):
     link_pattern = re.compile(r'https://(?:files|litter)\.catbox\.moe/[\w\-.]+(?:\.jpg|\.jpeg|\.png|\.webm)')
     
-    # Decide on save_directory based on the operation mode
     name_source = url if url else url_list_file if url_list_file else "downloaded_images"
     save_directory = find_next_folder(base_directory, name_source)
 
