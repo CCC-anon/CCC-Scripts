@@ -30,6 +30,8 @@ This Script can take all the files found inside of a folder, upload them to catb
 ## catboxHover.user.js
 
 * This is a userscript for Greasemonkey/Violentmonkey/*monkey
+* To install this script, after installing *monkey, click on this link:
+  * https://github.com/CCC-anon/CCC-Scripts/raw/main/catbox/catboxHover.user.js 
 * It displays previews of images hosted on catbox or various sites that come in the form of a URL when hovering over the link.
   * ![preview](https://github.com/CCC-anon/CCC-Scripts/assets/163057682/9ae5a45d-c53d-4c8d-a799-66076932a867)
 * It requires you to enable Linkify URLs in board settings ![linkify](https://github.com/CCC-anon/CCC-Scripts/assets/163057682/9ebb25fd-3100-41d7-b103-f789174a3236)
@@ -37,8 +39,10 @@ This Script can take all the files found inside of a folder, upload them to catb
 
 ## catboxThumbnails.user.js
 * This is a userscript for Greasemonkey/Violentmonkey/*monkey
+* To install this script, after installing *monkey, click on this link:
+  * https://github.com/CCC-anon/CCC-Scripts/raw/main/catbox/catboxThumbnails.user.js 
 * It loads catbox and litter image links within the thread as clickable thumbnails
-* It has a toggle to switch between Thumbnail and Plaintext view
+* It has a toggle to switch between Thumbnail and Plaintext view 
 * Before:
   * ![plain](https://github.com/CCC-anon/CCC-Scripts/assets/163057682/1c93bef2-3e9b-42ab-a661-78cd96a161f2)
 * After:
