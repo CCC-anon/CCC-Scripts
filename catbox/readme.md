@@ -26,3 +26,11 @@ This Script can take all the files found inside of a folder, upload them to catb
 **Do not end the directory path in a slash. Not sure what will happen but it might blow up.**
 * Upload files from a folder without album: `python catboxUp.py -f /path/to/your/folder` 
 * Upload files from a folder and create an album named 'My Pics': `python catboxUp.py -f /path/to/your/folder -a -t "My Pics"`
+
+## catboxloader-userscript.js
+
+This is a userscript to be used in Greasemonkey/Violentmonkey
+It displays previews of images hosted on catbox or various sites that come in the form of a URL when hovering over the link.
+![preview](https://github.com/CCC-anon/CCC-Scripts/assets/163057682/9ae5a45d-c53d-4c8d-a799-66076932a867)
+It requires you to enable Linkify URLs in board settings ![linkify](https://github.com/CCC-anon/CCC-Scripts/assets/163057682/9ebb25fd-3100-41d7-b103-f789174a3236)
+Then save the contents of the script file in your Userscript extension, save it and reload the page.
