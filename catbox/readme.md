@@ -42,7 +42,7 @@ This Script can take all the files found inside of a folder, upload them to catb
 * To install this script, after installing *monkey, click on this link:
   * https://github.com/CCC-anon/CCC-Scripts/raw/main/catbox/catboxThumbnails.user.js 
 * It loads catbox and litter image links within the thread as clickable thumbnails
-* It has a toggle to switch between Thumbnail and Plaintext view 
+* It has a toggle to switch between Thumbnail and Plaintext view ![toggle](https://github.com/CCC-anon/CCC-Scripts/assets/163057682/132331f6-eaf0-4ae2-ad7b-86196426d978)
 * Before:
   * ![plain](https://github.com/CCC-anon/CCC-Scripts/assets/163057682/1c93bef2-3e9b-42ab-a661-78cd96a161f2)
 * After:
