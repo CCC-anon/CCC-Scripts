@@ -3,8 +3,8 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Show an image preview that follows the mouse cursor when hovering over image links, with fixed positioning.
-// @author       You
-// @match        *://*/*
+// @author       CCC-anon
+// @match        https://boards.4chan.org/*
 // @grant        none
 // ==/UserScript==
 
