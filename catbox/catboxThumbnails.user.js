@@ -11,7 +11,7 @@
 (function() {
     'use strict';
 
-    let showThumbnails = true;
+    let showThumbnails = false;
 
     const createImageLink = (url) => {
         // Correct the URL to ensure it ends with the proper extension
