@@ -27,10 +27,19 @@ This Script can take all the files found inside of a folder, upload them to catb
 * Upload files from a folder without album: `python catboxUp.py -f /path/to/your/folder` 
 * Upload files from a folder and create an album named 'My Pics': `python catboxUp.py -f /path/to/your/folder -a -t "My Pics"`
 
-## catboxloader-userscript.js
+## catboxHover.user.js
 
-* This is a userscript to be used in Greasemonkey/Violentmonkey
+* This is a userscript for Greasemonkey/Violentmonkey/*monkey
 * It displays previews of images hosted on catbox or various sites that come in the form of a URL when hovering over the link.
-![preview](https://github.com/CCC-anon/CCC-Scripts/assets/163057682/9ae5a45d-c53d-4c8d-a799-66076932a867)
+  * ![preview](https://github.com/CCC-anon/CCC-Scripts/assets/163057682/9ae5a45d-c53d-4c8d-a799-66076932a867)
 * It requires you to enable Linkify URLs in board settings ![linkify](https://github.com/CCC-anon/CCC-Scripts/assets/163057682/9ebb25fd-3100-41d7-b103-f789174a3236)
 * Then save the contents of the script file in your Userscript extension, save it and reload the page.
+
+## catboxThumbnails.user.js
+* This is a userscript for Greasemonkey/Violentmonkey/*monkey
+* It loads catbox and litter image links within the thread as clickable thumbnails
+* It has a toggle to switch between Thumbnail and Plaintext view
+* Before:
+  * ![plain](https://github.com/CCC-anon/CCC-Scripts/assets/163057682/1c93bef2-3e9b-42ab-a661-78cd96a161f2)
+* After:
+  * ![thumbs](https://github.com/CCC-anon/CCC-Scripts/assets/163057682/f1b57833-ef23-44b0-91a4-2294a683929b)
