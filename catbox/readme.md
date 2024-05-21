@@ -27,6 +27,11 @@ This Script can take all the files found inside of a folder, upload them to catb
 * Upload files from a folder without album: `python catboxUp.py -f /path/to/your/folder` 
 * Upload files from a folder and create an album named 'My Pics': `python catboxUp.py -f /path/to/your/folder -a -t "My Pics"`
 
+## catboxThreadAlbum.py
+This Script can take all the catbox links found within the contents of an imageboard thread, and sorts them as a Catbox Album without re-uploading them, then returns the number of unique files found and the album URL. 
+* Create a Catbox Album from the links found within an Imageboard Thread: `python catboxThreadAlbum.py https://link/to/the/thread` 
+
+
 ## catboxHover.user.js
 
 * This is a userscript for Greasemonkey/Violentmonkey/*monkey
